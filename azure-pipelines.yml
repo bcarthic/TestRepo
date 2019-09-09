@@ -6,4 +6,6 @@
 trigger:
 - master
 
-pool: server
+jobs:
+- job: RunOnServer
+  pool: server
